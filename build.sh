@@ -33,7 +33,7 @@ for f in */;
 do
 	cat $f > "$DEST/";
 	# cp -r */ ../public/
-	cp -r */ "$DEST/"
+	cp -r /* "$DEST/"
 	echo "Processing $f file..";
 done
 
